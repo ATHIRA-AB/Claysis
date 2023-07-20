@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body background="C:\Users\athir\Desktop\claysis\bgc.jpg" style="background-repeat:no-repeat; background-size:cover;">
+ 
+    <center>
+        <h2>Sign Up</h2>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required style="border-radius: 5px;"><br><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required style="border-radius: 5px;"><br><br>
+
+            <label for="dob">Date of Birth    :   </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="date" id="dob" name="dob" required style="border-radius: 5px;"><br><br>
+
+            <label for="age">Age     :</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="number" id="age" name="age" required style="border-radius: 5px;"><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required style="border-radius: 5px;"><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required style="border-radius: 5px;"><br><br>
+
+            <label for="address">Address:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <textarea id="address" name="address" rows="3" required style="border-radius: 5px;"></textarea><br><br>
+
+            <label for="state">State:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <select id="state" name="state" required style="border-radius: 5px;">
+                <option value="" disabled selected>Select State</option>
+                <option value="state1">Kerala</option>
+                <option value="state2">Assam</option>
+		<option value="state2">Bihar</option>
+		<option value="state2">punjab</option>
+		<option value="state2">Odisha</option>
+            </select><br><br>
+
+            <label for="city">City:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <select id="city" name="city" required style="border-radius: 5px;">
+                <option value="" disabled selected>Select City</option>
+                <option value="state2">Thrissur</option>
+		<option value="state2">Ernakulam</option>
+
+            </select><br><br>
+
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required style="border-radius: 5px;"><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required style="border-radius: 5px;"><br><br>
+
+            <label for="confirmPassword">Confirm Again:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required style="border-radius: 5px;"><br><br>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </center>
+</body>
+</html>
